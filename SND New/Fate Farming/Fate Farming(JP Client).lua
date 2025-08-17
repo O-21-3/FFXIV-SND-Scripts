@@ -2708,7 +2708,7 @@ function DoFate()
             ClearTarget()
         elseif not Svc.Targets.Target.IsDead then
             if not ForlornMarked then
-                Engines.Run("/enemysign attack1")
+                Engines.Run("/mk attack1")
                 if Echo == "all" then
                     Engines.Run("/echo  Found Forlorn! <se.3>")
                 end
